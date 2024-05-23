@@ -1,0 +1,169 @@
+
+    body{
+        background-color: rgb(189, 206, 184);
+        margin-top: 2cm;
+    }
+    h1{
+        color: ivory;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xxx-large;
+        }
+    button{
+        color: darkolivegreen;
+    }
+    p{
+        font-size: larger;
+        color: rgb(46, 71, 63);
+    }
+    .list-card{
+        display:flex;
+        flex-wrap: wrap;
+        position: absolute;
+        margin-left: 400px;
+        margin-right: 300px
+    }
+    .card{
+        padding: 10px;
+        justify-content: center;
+    }
+    .Spirited{
+        padding: 20px;
+        text-align: center;
+        border-radius: 4px;
+        background: ivory;
+        box-shadow: 0px 5px 10px rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .totoro{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .ponyo{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .howl{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .laputa{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .kiki{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .whisper{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .marnie{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .wind{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .poppy{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .sho{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .only{
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: ivory;
+        box-shadow: 0px 5px 10px  rgb(173, 192, 157);
+        margin-right: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background-color:rgb(108, 127, 103);
+        display: flex;
+        justify-content: space-between;
+        justify-items: right;
+        align-items: center;
+        z-index: 100;
+    }
+    .navbar a{
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 40px;
+    }
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(bglg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(7px);
+        z-index: -1;
+        }
